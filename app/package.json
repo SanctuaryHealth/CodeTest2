@@ -13,7 +13,7 @@
     "dev": "npx @langchain/langgraph-cli dev"
   },
   "dependencies": {
-    "@langchain/community": "1.1.9",
+    "@langchain/community": "1.1.29",
     "@langchain/core": "1.1.17",
     "@langchain/google-vertexai": "2.1.13",
     "@langchain/langgraph": "1.1.2",
