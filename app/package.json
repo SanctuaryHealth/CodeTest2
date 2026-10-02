@@ -1,0 +1,32 @@
+{
+  "name": "code-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/retrieval_graph/graph.ts",
+  "author": "Your Name",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "npx @langchain/langgraph-cli dev"
+  },
+  "dependencies": {
+    "@langchain/community": "1.1.9",
+    "@langchain/core": "1.1.17",
+    "@langchain/google-vertexai": "2.1.13",
+    "@langchain/langgraph": "1.1.2",
+    "@langchain/pinecone": "1.0.1",
+    "@pinecone-database/pinecone": "5.1.2",
+    "langchain": "1.2.15",
+    "ts-node": "10.9.2",
+    "uuid": "13.0.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "1.0.13",
+    "dotenv": "16.6.1",
+    "typescript": "5.9.3"
+  }
+}

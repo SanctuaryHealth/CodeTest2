@@ -1,0 +1,50 @@
+{
+    "name": "@sanctuaryhealth/constants",
+    "version": "3.0.0-codeTest",
+    "description": "Sanctuary Health Constants",
+    "type": "module",
+    "files": [
+        "dist/*"
+    ],
+    "exports": {
+        ".": {
+            "types": "./dist/constants/index.d.ts",
+            "import": "./dist/constants/index.js"
+        },
+        "./constants": {
+            "types": "./dist/constants/index.d.ts",
+            "import": "./dist/constants/index.js"
+        },
+        "./FFMPEGAPIValidation": {
+            "types": "./dist/FFMPEGAPIValidation/index.d.ts",
+            "import": "./dist/FFMPEGAPIValidation/index.js"
+        },
+        "./helpers": {
+            "types": "./dist/helpers/index.d.ts",
+            "import": "./dist/helpers/index.js"
+        }
+    },
+    "author": "sanctuaryhealth",
+    "license": "ISC",
+    "peerDependencies": {
+        "node-fetch": "3.3.2",
+        "zod": "4.1.13"
+    },
+    "peerDependenciesMeta": {
+        "drizzle-orm": {
+            "optional": true
+        },
+        "drizzle-zod": {
+            "optional": true
+        },
+        "next-auth": {
+            "optional": true
+        },
+        "node-fetch": {
+            "optional": true
+        },
+        "zod": {
+            "optional": true
+        }
+    }
+}
